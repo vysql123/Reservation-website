@@ -1,0 +1,113 @@
+ /* div��p�^�O��ύX */
+div,
+/* id��sample��p�^�O���X�ɕύX */
+p#sample {
+	/* �����𑾕��� */
+	font-weight: bold;
+    text-align: left;
+}
+
+.plan_box{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: "black";/*�����F*/
+    background: #FFF;
+    border: solid 1px #DDDDDD;/*��*/
+    border-radius: 10px;/*�p�̊ۂ�*/
+    font-weight: normal;
+}
+
+.box-time{
+ color: "black";/*�����F*/
+    background: #FFF;
+    border: solid 1.5px #DDDDDD;/*��*/
+    border-radius: 10px;
+    padding: 8px 60px;
+    text-align: left
+}
+
+.button-reser{
+    border-radius: 10px;
+    background-color: #FFF;
+    padding: 8px 30px;
+    border: 2px solid #C0C0C0;
+    }
+.date{
+    width:200px;
+    height:35px;
+    border: 1px solid #C0C0C0;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+img{float:right;}
+
+.box-fm{color: "black";/*�����F*/
+    background: #FFF;
+    border: solid 1.5px #DDDDDD;/*��*/
+    border-radius: 10px;
+    width:90%;
+    height: 30px;
+    text-align:left;
+}
+
+.extra{color: "black";/*�����F*/
+    background: #FFF;
+    border: solid 1.5px #DDDDDD;/*��*/
+    border-radius: 10px;
+}
+
+.check{color:#FFF;/*�����F*/
+    background: #3399FF;
+    border: solid 1.5px #3399FF;/*��*/
+    border-radius: 10px;
+    padding: 8px 30px;
+}
+
+.back{color: "black";/*�����F*/
+    background: #FFF;
+    border: solid 1.5px #808080;/*��*/
+    border-radius: 10px;
+    padding: 8px 30px;
+}
+
+.check-margin{color:#FFF;/*�����F*/
+    background: #3399FF;
+    border: solid 1.5px #3399FF;/*��*/
+    border-radius: 10px;
+    padding: 8px 30px;
+    margin-left:100px;
+}
+
+.planname{
+    margin-top:30px;
+    margin-bottom:30px;
+    font-weight: normal;
+}
+
+
+table th {/*table����th�ɑ΂���*/
+    text-align:start;
+    padding-top:10px;
+    font-weight: 600;
+}
+
+table td {/*table����td�ɑ΂���*/
+    text-align:start;
+    padding-top:10px;
+    padding-bottom:10px
+}
+
+body {
+  width: 1280px;
+  height: 720px;
+  text-align:start;
+  font-family: Courier;
+  margin-bottom: 30px;
+}
+
+a,
+a:visited {
+    color:#3399FF;
+text-decoration:underline;
+}
