@@ -1,6 +1,6 @@
 <?php 
 try{
-    $pdo = new PDO("mysql:host=localhost;dbname=oyado","craft","craft.admin");
+    $pdo = new PDO(　　　　　　　　　　　　);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
     $join="SELECT type_name, plans.image_id, alt, url, plan_id, plan_name, detail, price, plans.type_id 
