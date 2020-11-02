@@ -51,7 +51,7 @@ if (isset($_POST["extra"])) {
     $extra = '';
 };
 try {
-    $conn = new PDO("mysql:host=localhost;dbname=oyado","craft","craft.admin");
+    $conn = new PDO("　　　　　　　　　　　　　　");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $conn->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
     $sql = $conn -> prepare("INSERT INTO reservations (name, persons, mail_address, phone_number, ETA, note, plan_id) VALUES (?,?,?,?,?,?,?)");
